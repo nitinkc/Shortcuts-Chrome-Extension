@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "My Shortcuts",
+  "description": "This Extension shows the most used shortcuts",
+  "version": "0.1",
+
+  "browser_action": {
+				   "default_icon": "logo.png",
+				   "default_popup": "shortcuts.html"
+  }
+}
