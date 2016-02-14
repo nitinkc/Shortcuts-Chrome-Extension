@@ -1,6 +1,6 @@
 .wrap {
    margin: auto;
-   width: 1180px;
+   width: 5000px;
    overflow: hidden; /* because children will be floated */
 }
 
@@ -53,3 +53,5 @@ body {
     line-height: 1em;
     margin: 0;
 }
+
+
