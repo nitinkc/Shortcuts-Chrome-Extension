@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   <meta charset="utf-8">
+
+   <link href="style.css" rel="stylesheet"/>
+   <script src="shortcuts.js"></script>
+   <title>My Shortcuts</title>
+</head>
+
+<body>
+
+ <h4>⌥ -> ALT ,  ⌃ -> CONTROL , ⌘ -> COMMAND , ⇧ –> SHIFT</h4>
+ ⌥ + ⌃ + ⌘ + 8 --> Mac invert color
+
+ <div id="result">  </div>
+
+ <script>
+ // Check browser support
+ if (typeof(Storage) !== "undefined") {
+     // Store
+     localStorage.setItem("lastname", "Nitin");
+     // Retrieve
+     document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+ } else {
+     document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+ }
+ </script>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h2>
+				Sublime
+			</h2>
+			<p>
+			<ul>
+				<li>⌘ / --> line comment </li>
+				<li>⌘ ⌥ / --> block comment </li>
+				<li>⌘ f --> search all dir</li>
+				<li>⌘ ] --> indent</li>
+				<li>⌘ K --> fold all </li>
+				<li>⌘ J --> unfold all </li>
+				<li>Layout (Split Screen) → Alt + Cmd+1,2 …(1 pane, 2 pane etc.)</li>
+				<li>switch between tabs → cmd+1,2 …</li>
+				<li>view → Show sidebar → shows the folder hierarchy</li>
+				<li>view → Hide minimap (Removes the right pane showing the map of doc )</li>
+				<li>cmd+shift +f → global search</li>
+			</ul>
+			</p>
+
+		</div>
+		<div class="col-md-4">
+			<h2>
+				Chrome on MAC
+			</h2>
+			<ul>
+				<li> Reopen Last 10 closed tabs → ⌘-Shift-T</li>
+				<li> Minimizes the window. → ⌘-M </li>
+				<li> Hides Google Chrome. → ⌘-H</li>
+				<li> Hides all other windows. → ⌘-⌥-H </li>
+				<li> Dev tools → ⌘-⌥ </li>
+			</ul>
+		</div>
+		<div class="col-md-4">
+			<h2>
+				VIM
+			</h2>
+			<p>
+			<ul>
+			</ul>
+			</p>
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>
